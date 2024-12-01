@@ -1,0 +1,128 @@
+:root{
+    --background: #333;
+    --secondbackground:#e0e0e0;
+}
+
+
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+h1{
+    color:#fff6f6;
+}
+
+h2 {
+    color:#000000;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ margin: 20px;
+}
+#home{
+    background-color: var(--secondbackground);
+    font-size: 25px;
+
+}
+#about{
+    background-color: #e0e0e0;
+    font-size: 25px;
+    font-weight: 300;
+}
+#about button{
+    
+        margin: 0 auto;
+        display: block;
+}
+#services{
+    background-color: #e0e0e0;
+}
+#services ul li{
+    padding-top: 5px;
+    display: inline;
+    font-size: 25px;
+    
+}
+#services i{
+    padding-top: 3px;
+    font-size: 25px;
+}
+#services p{
+    font-size: 25px;
+    font-weight: 300;
+}
+#portfolio{
+    background-color: #e0e0e0;
+}
+#contact{
+    background-color: #6d6a6a;
+}
+#contact form{
+    font-size: larger;
+}
+button {
+    background-color:black;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+section{
+    padding: 40px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    column-width: 100px;
+}
+footer{
+    background-color: #e0e0e0;
+}
